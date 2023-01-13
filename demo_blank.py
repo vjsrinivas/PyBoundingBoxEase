@@ -132,7 +132,7 @@ if __name__ == '__main__':
     videoWriter = initializeVideo("test.mp4", canvas_size, fps)
     box0 = (300,300)
     box0_wh = (300,300)
-    box1 = (1000,1000)
+    box1 = (1000,1800)
     box1_wh = (100,100)
     
     box_wh = pan(box0_wh, box1_wh, fps, canvas_size) # width/height progression
